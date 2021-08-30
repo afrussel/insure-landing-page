@@ -208,7 +208,7 @@ a:hover {
 }
 
 .action__content::before {
-  content: url(/images/bg-pattern-how-we-work-mobile.svg);
+  content: url(../images/bg-pattern-how-we-work-mobile.svg);
   position: absolute;
   top: 0;
   right: 0;
@@ -217,7 +217,7 @@ a:hover {
 
 @media screen and (min-width: 992px) {
   .action__content::before {
-    content: url(/images/bg-pattern-how-we-work-desktop.svg);
+    content: url(../images/bg-pattern-how-we-work-desktop.svg);
   }
 }
 
@@ -298,7 +298,7 @@ a {
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  background-image: url(/images/icon-hamburger.svg);
+  background-image: url(../images/icon-hamburger.svg);
 }
 
 @media screen and (min-width: 768px) {
